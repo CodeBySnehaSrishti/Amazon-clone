@@ -467,7 +467,14 @@ background: #ffd;
    font-family: 400px;
 }
 
-
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 20px 60px;
+}
 
 
 /* @media only screen and (max-width:900px){

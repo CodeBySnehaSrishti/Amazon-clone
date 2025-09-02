@@ -10,75 +10,152 @@
 </head>
 
 <body>
+      <div class="container-header">
+        <a href="/" class="logo border-white">
+            <img src="asset/amazon-logo.svg" alt="" srcset="">
+        </a>
 
-    <nav>
-        <a href="/"> <img src="assest/amazon logo.png" width="80" alt=""></img></a>
 
-        <div class="nav-country">
-            <img src="assest/location.png" height="20px" alt="">
-            <div>
-                <p>Deliver to</p>
-                <h1>United Kingdom</h1>
+        <div class="address-container border-white">
+
+            <div class="icon-address">
+                <img src="asset/location.svg" alt="" srcset="">
+            </div>
+            <div class="address">
+                <p>Delivering to India</p>
+                <p>Update location</p>
             </div>
         </div>
-        <div class="nav-search">
-            <div class="nav-search-gategory">
+
+        <div class="search-container">
+            <div class="search-select">
                 <p>All</p>
-                <img src="assest/down arrow.png" height="12px" alt="">
+                <img src="asset/black drop down.svg" alt="" srcset="">
             </div>
-            <input type="text" class="nav-search-input" placeholder="Search Amazon">
-            <img src="assest/icons8-search-50.png" width="39px" class="nav-search-icon" alt="">
+            <input type="text" class="search-input" placeholder="Search Amazon">
+            <img class=" search-icon" src="asset/search.svg" alt="" srcset="">
         </div>
-        <div class="nav-language">
-            <img src="assest/menu_FILL0_wght400_GRAD0_opsz24.png" width="25px">
+
+        <div class="language-container border-white">
+            <div class="lauguge-image">
+                <img src="asset/India.png">
+            </div>
+
             <p>EN</p>
-            <img src="assest/down arrow.png" height="10px">
-        </div>
-        <div class="nav-text">
-           <p ><a href="signin.html"> Hello,Sign in</a></p>
-            <h1>Account & List <img src="assest/down arrow.png" width="15px"></h1>
-        </div>
-        <div class="nav-text">
-            <p>Return</p>
-            <h1>& Orders<img src="assest/down arrow.png" width="15px"></h1>
+            <div class="arrow">
+                <img src="asset/white drop down.svg" alt="" srcset="">
+            </div>
+
         </div>
 
-  <a href="signin.html " class="mobile-user-icon" style="display: none;">
-            <img src="./assest/user.png">
-        </a>
+        <div class="login-container border-white">
+            <p>Hello,<span>sign in</span></p>
+            <p class="account">Account & Lists</p>
+        </div>
 
-        <a href="/cart.html" class="nav-cart">
-            <img src="assest/cart.png" width="35px" alt="">
-            <h4>Cart</h4>
+        <div class="return-order-container border-white">
+            <p>Returns
+            <div class="order">& Orders</div>
+            </p>
+        </div>
+        <a href="cart.html" class="cart-container border-white">
+            <img src="asset/CART.svg" alt="" srcset="">
+            <p>cart</p>
+
         </a>
+    </div>
+
+
+    <!--navigation-->
+    <nav class="nav">
+        <div class="container-nav">
+            <ul>
+                <li class="border-white" id="open-nav-sidebar">
+
+                    <img src="asset/MENU.svg" alt="" srcset="">
+                    <p>All</p>
+
+                </li>
+                <li class="border-white"><a href="#">Best Sellers</a></li>
+                <li class="border-white"><a href="#">Today's Deals</a></li>
+                <li class="border-white"><a href="#">Mobiles</a></li>
+                <li class="border-white"><a href="#">Customer Service</a></li>
+                <li class="border-white"><a href="#">Electronic</a></li>
+                <li class="border-white"><a href="#">Home & Kitchen</a></li>
+                <li class="border-white"><a href="#">Fashion</a></li>
+                <li class="border-white"><a href="#">Book</a></li>
+
+            </ul>
+
+        </div>
     </nav>
 
-
-    <div class="nav-bottom">
-        <div>
-            <img src="assest/menu_FILL0_wght400_GRAD0_opsz24.png" width="25px" alt="">
-            <p>All</p>
+    <!--sidebar navigation-->
+    <div class="sidebar-container-navigation" id="sidebar-container-navigation-id">
+        <div class="sidebar-left-part">
+            <div class="sidebar-top">
+                <i class="fa-solid fa-circle-user"></i>
+                <h2>Hello, <span>sign in</span></h2>
+            </div>
+            <div class="sidebar-wrap">
+                <div class="sidebar-item">
+                    <h2>Trending</h2>
+                    <p>Best Sellers</p>
+                    <p>New Releases</p>
+                    <p>Movers and Shakers</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Digital Content And Devices</h2>
+                    <p>Echo & Alexa</p>
+                    <p>Fire TV</p>
+                    <p>Kindle E-Readers & eBooks</p>
+                    <p>Audible Audiobooks</p>
+                    <p>Amazon Prime Video</p>
+                    <p>Amazon Prime Music</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Shop By Category</h2>
+                    <p>Mobiles, Computes</p>
+                    <p>TV, Appliances, Electronic</p>
+                    <p>Men's Fashion</p>
+                    <p>Women's Fashion</p>
+                    <p>See All</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Programs & Features</h2>
+                    <p>Gift Cards & Mobile Recharges</p>
+                    <p>Flight Tickets</p>
+                    <p>#Foundlt-OnAmazon</p>
+                    <p>Clearance store</p>
+                </div>
+                <div class="sidebar-item">
+                    <h2>Help & Settings</h2>
+                    <p>Your Account</p>
+                    <p>Customer Service</p>
+                    <p>Sign in</p>
+                </div>
+            </div>
         </div>
-        <p>Today's Deals</p>
-        <p>Customer Services</p>
-        <p>Registry</p>
-        <p>Gift Card</p>
-        <p>Sell</p>
+        <button id="sidebar-navigation-close">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
     </div>
+
+
 
     <p class="breadcrum">Video Games > PC > Accessories > Headset </p>
 
     <div class="product-display">
         <div class="product-d-image">
             <div class="product-icons">
-                <img src="./assest/img/bike1.jpg" alt="" width="60">
-                <img src="./assest/img/bike1.jpg" alt="" width="60">
-                <img src="./assest/img/bike1.jpg" alt="" width="60">
-                <img src="./assest/img/bike1.jpg" alt="" width="60">
-                <img src="./assest/img/bike1.jpg" alt="" width="60">
+                <img src="asset/r-1-b-1-1.png" alt="" width="100">
+                <img src="asset/r-1-b-1-1.png" alt="" width="100">
+                <img src="asset/r-1-b-1-1.png" alt="" width="100">
+                <img src="asset/r-1-b-1-1.png" alt="" width="100">
+                <img src="asset/r-1-b-1-1.png" alt="" width="100">
             </div>
             <div class="product-main-imgage">
-                <img src="./assest/img/bike1.jpg" alt="" width="100">
+                <img src="asset/r-1-b-1-1.png" alt="" width="500">
             </div>
         </div>
 
@@ -347,8 +424,8 @@
         </div>
     </div>
 
-     <footer class="product-footer">
-        <img src="./assest/amazon logo.png" width="100" alt="">
+    <footer class="product-footer">
+        <img src="asset/amazon-logo.svg" width="100" alt="">
         <p>@ 1996-2024, Amaxon.com, Inc. or its affiliates</p>
     </footer>
 
